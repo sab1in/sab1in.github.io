@@ -77,3 +77,34 @@ a{
 	background: #F5F5F5;
 	padding: 10px 15px;
 }
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.foot{
+	padding-top: 45px;
+}
+
+.foot > p{
+	margin-bottom: 20px;
+}
+
+.email{
+	width: 30%;
+	height: 25px;
+	border-color: darkgray;
+	padding: 5px;
+
+}
+
+button{
+	width: 60px;
+	height: 35px;
+	background-color: #d9534f;
+	color: white;
+	border: none;
+	margin-left: 10px;
+}
