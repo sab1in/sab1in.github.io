@@ -1,0 +1,158 @@
+/*heading*/
+*{
+	padding: 0px;
+	margin: 0px; 
+}
+
+#store{
+	width: 100%;
+	height: 240px;
+	background-color: whitesmoke;
+}
+
+#store-name{
+	text-align: center;
+	font-size: 63px;
+	padding-top: 48px;
+}
+
+#store-dis{
+	text-align: center;
+	font-size: 21px;
+}
+
+/*nav*/
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+ 	width: 100%;
+ 	height: 70px;
+ 	background-color: black;
+ 	font-size: 20px;
+}
+ 
+
+#nav2{
+	margin-right:2%;
+}
+
+nav > div{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+/*Home main*/
+.container{
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.boxgap{
+	padding: 0px 15px;
+}
+
+.boxgap>.boxes{
+	color: #333333;
+	background: #FFFFFF;
+	margin: 0px 0px 20px;
+
+}
+
+.boxes{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.boxgap>.boxes>.boxhead{
+	background: #337AB7;
+	color: #FFFFFF;
+	padding: 10px 15px;
+}
+
+.boxgap>.boxes>.boxbody{
+	padding: 15px;
+}
+
+.boxgap>.boxes>.boxbody>img{
+	width:100%;
+}
+
+.boxgap>.boxes>.boxfoot{
+	color: #333333;
+	background: #F5F5F5;
+	padding: 10px 15px;
+}
+
+/*HOME FOOTER*/
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.foot{
+	padding-top: 45px;
+}
+
+.foot > p{
+	margin-bottom: 20px;
+}
+
+.email{
+	width: 30%;
+	height: 25px;
+	border-color: darkgray;
+	padding: 5px;
+
+}
+
+button{
+	width: 60px;
+	height: 35px;
+	background-color: #d9534f;
+	color: white;
+	border: none;
+	margin-left: 10px;
+}
+
+/*CONTACT US*/
+#contact {
+	background-color: #fff0f5;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+#contact > div{
+	display: flex;
+	justify-content: center;
+}
+
+#contact> div > div{
+	padding-top: 15px;
+	width: 500px;
+	height: 600px;
+	background-color: #dcdcdc;
+}
+
+#contact > div > div > ul{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#contact > div > div >ul > input{
+	width: 90%;
+	height: 30px;
+}
